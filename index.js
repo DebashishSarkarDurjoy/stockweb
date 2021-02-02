@@ -1,4 +1,7 @@
 // Stock Market Portfolio App by Debashish Sarkar Durjoy updated
+<html>
+<head>
+<script>
 const express = require("express");
 const app = express();
 const path = require('path');
@@ -56,5 +59,6 @@ app.get('/about.html', function(req, res) {
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.listen(PORT, () => console.log("Server listening on port: " + PORT));
-
-
+</script>
+</head>
+</html>
